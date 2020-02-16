@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Fantastic coffee with a conscience
+title: Welcome to Low Level Views
 image: /img/asoggetti-rsfxbgpnluw-unsplash.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Where service is personal
 mainpitch:
   title: Why Kaldi
   description: >
