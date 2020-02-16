@@ -31,9 +31,15 @@ body
     justify-content: flex-end
     width: 100%
 
-.navbar-item--logo
-    font-family: $font-heading
-    font-size: 25px
+.navbar-item
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+
+    &--logo
+        text-transform: none;
+        font-family: $font-heading
+        font-size: 25px
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -69,12 +75,23 @@ body
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: calc(100vh - 53px)
     background-size: cover
     background-position: bottom
     display: flex
     justify-content: center
     align-items: center
+    position: relative
+
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0
+        background-color: rgba(0, 0, 0, 0.2)
+
 
 .btn
     display: inline-block
