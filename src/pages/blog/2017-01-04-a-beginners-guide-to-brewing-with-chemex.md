@@ -4,13 +4,13 @@ title: Searching for 50 year land drains
 date: 2017-01-04T15:04:10.000Z
 description: Some intro text about what the job involved
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/image1-17.jpeg
 tags:
   - agricultural-survey
   - drone
   - photography
 ---
-![chemex](/img/chemex.jpg)
+![chemex](/img/image1-17.jpeg)
 
 ### Brief
 
