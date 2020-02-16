@@ -40,6 +40,7 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Contact</h1>
+              <p>If you have any questions or queries feel free to call me me on <a href="tel:+44 0791 866 7054">+44 0791 866 7054</a> or fill out the form below and i'll get back to you.</p>
               <form
                 name="contact"
                 method="post"
@@ -56,9 +57,10 @@ export default class Index extends React.Component {
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
+                {/* Name */}
                 <div className="field">
                   <label className="label" htmlFor={'name'}>
-                    Your name
+                    Your name*
                   </label>
                   <div className="control">
                     <input
@@ -71,9 +73,26 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
+                {/* Phone */}
+                <div className="field">
+                  <label className="label" htmlFor={'phone'}>
+                    Your number*
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={'number'}
+                      name={'phone'}
+                      onChange={this.handleChange}
+                      id={'phone'}
+                      required={true}
+                    />
+                  </div>
+                </div>
+                {/* Email */}
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
-                    Email
+                    Email*
                   </label>
                   <div className="control">
                     <input
@@ -86,17 +105,65 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
+                {/* Land Owners Name */}
                 <div className="field">
-                  <label className="label" htmlFor={'message'}>
-                    Message
+                  <label className="label" htmlFor={'land-owner'}>
+                    Land Owner's Name
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={'text'}
+                      name={'land-owner'}
+                      onChange={this.handleChange}
+                      id={'land-owner'}
+                      required={false}
+                    />
+                  </div>
+                </div>
+                {/* Brief description of work required */}
+                <div className="field">
+                  <label className="label" htmlFor={'work-required'}>
+                    Brief description of work required*
                   </label>
                   <div className="control">
                     <textarea
                       className="textarea"
-                      name={'message'}
+                      name={'work-required'}
                       onChange={this.handleChange}
-                      id={'message'}
+                      id={'work-required'}
                       required={true}
+                    />
+                  </div>
+                </div>
+                {/* Approximate date of work to start and finish */}
+                <div className="field">
+                  <label className="label" htmlFor={'date'}>
+                    Approximate date of work to start and finish
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={'text'}
+                      name={'date'}
+                      onChange={this.handleChange}
+                      id={'date'}
+                      required={false}
+                    />
+                  </div>
+                </div>
+                {/* Any other relevant information */}
+                <div className="field">
+                  <label className="label" htmlFor={'other-info'}>
+                    Any other relevant information
+                  </label>
+                  <div className="control">
+                    <textarea
+                      className="textarea"
+                      name={'other-info'}
+                      onChange={this.handleChange}
+                      id={'other-info'}
+                      required={false}
                     />
                   </div>
                 </div>
