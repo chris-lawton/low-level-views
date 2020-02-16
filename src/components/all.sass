@@ -1,14 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300|Poppins:700&display=block')
 @import "~bulma/sass/utilities/initial-variables"
-
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #1176bc
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #333
+$body-color: #444
 $black: #2b2523
+
+$font-heading: 'Poppins', sans-serif;
+$font-body: 'Merriweather', sans-serif;
+
+h1,h2,h3,h4,h5,h6
+    font-family: $font-heading
+    font-weight: 700 !important
+
+html,
+body
+    font-family: $font-body
+    font-weight: 300 !important
+
+.intro
+    font-family: $font-body
+    font-size: 20px
+
+.navbar
+    display: flex
+    justify-content: flex-end
+    width: 100%
+
+.navbar-item--logo
+    font-family: $font-heading
+    font-size: 25px
 
 .navbar .navbar-menu
   box-shadow:none !important

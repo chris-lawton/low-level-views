@@ -22,8 +22,6 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
       }}
     >
       <div
@@ -63,7 +61,7 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
       </div>
-    </div>
+      </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -72,15 +70,15 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h1 className="is-size-2">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <p className="intro">{mainpitch.description}</p>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-4">
                       {heading}
                     </h3>
                     <p>{description}</p>
