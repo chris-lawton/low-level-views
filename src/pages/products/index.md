@@ -8,13 +8,13 @@ description: >-
   looking for something more bespoke then please get in touch to discuss.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/colin-watts-0egkrufcub8-unsplash-1-.jpg
       text: Agricultural Surveys
-    - image: /img/coffee-gear.png
+    - image: /img/enrapture-captivating-media-tdrzdy4si3i-unsplash-1-.jpg
       text: 'Buildings, Roof and Security Surveys'
-    - image: /img/tutorials.png
+    - image: /img/chris-gallagher-0phuatg_2cq-unsplash-1-.jpg
       text: Flooding surveys
-    - image: /img/meeting-space.png
+    - image: /img/scott-blake-x-ghf9ljrvg-unsplash-1-.jpg
       text: Planning Consents
   heading: What we offer
   description: >
