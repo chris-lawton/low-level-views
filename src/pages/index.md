@@ -16,9 +16,9 @@ intro:
     - image: /img/image10-35.jpeg
       text: |
         Some text here
-    - image: /img/image28-71.jpeg
-      text: Some text here
     - image: /img/image3-21.jpeg
+      text: Some text here
+    - image: /img/image28-71.jpeg
       text: Some text here
     - image: /img/image35-85.jpeg
       text: Some text here
