@@ -16,12 +16,12 @@ intro:
     - image: /img/image10-35.jpeg
       text: |
         Some text here
-    - image: /img/image3-21.jpeg
+    - image: /img/image1-17.jpeg
       text: Some text here
     - image: /img/image28-71.jpeg
-      text: Some text here
+      text: Some text herefdfs
     - image: /img/image35-85.jpeg
-      text: Some text here
+      text: Some text heredsfdsf
   heading: What we offer
   description: Hello
 main:
