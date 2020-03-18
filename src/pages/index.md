@@ -18,10 +18,6 @@ intro:
         Some text here
     - image: /img/image1-17.jpeg
       text: Some text here
-    - image: /img/image28-71.jpeg
-      text: Some text herefdfs
-    - image: /img/image35-85.jpeg
-      text: Some text heredsfdsf
   heading: What we offer
   description: Hello
 main:
