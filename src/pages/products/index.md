@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Our Services
-image: /img/jumbotron.jpg
+image: /img/ricardo-gomez-angel-d7czyewzyzc-unsplash-1-.jpg
 heading: Our services
 description: >-
   Please take a look through at all the services we offer below. If you're
