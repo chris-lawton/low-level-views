@@ -13,10 +13,10 @@ mainpitch:
 description: This is an intro
 intro:
   blurbs:
-    - image: /img/image10-35.jpeg
+    - image: /img/colin-watts-0egkrufcub8-unsplash-1-.jpg
       text: |
         Some text here
-    - image: /img/image1-17.jpeg
+    - image: /img/enrapture-captivating-media-tdrzdy4si3i-unsplash-1-.jpg
       text: Some text here
   heading: What we offer
   description: Hello
