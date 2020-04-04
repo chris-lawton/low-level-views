@@ -14,10 +14,11 @@ description: This is an intro
 intro:
   blurbs:
     - image: /img/colin-watts-0egkrufcub8-unsplash-1-.jpg
-      text: |
-        Some text here
+      text: Some text here about agricultural surveys
     - image: /img/enrapture-captivating-media-tdrzdy4si3i-unsplash-1-.jpg
-      text: Some text here
+      text: 'Some text here about building surveys '
+    - image: /img/chris-gallagher-0phuatg_2cq-unsplash-1-.jpg
+      text: 'Some text here about flooding surveys '
   heading: What we offer
   description: Hello
 main:
