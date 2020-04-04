@@ -75,13 +75,14 @@ body
 
 .full-width-image
     width: 100vw
-    height: calc(100vh - 53px)
+    height: calc(60vh - 53px)
     background-size: cover
-    background-position: bottom
+    background-position: center
     display: flex
     justify-content: center
     align-items: center
     position: relative
+    overflow: hidden;
 
     &::after
         content: ''
@@ -95,20 +96,23 @@ body
 
 .btn
     display: inline-block
-    padding: 12px 16px 10px
+    padding: 10px 16px 12px
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
-    background-color: #fff
+    background-color: #3273dc
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #fff
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    box-shadow: inset 0 0 0 2px #3273dc
     -webkit-transition: all .15s ease
     transition: all .15s ease
+
+    &:hover
+      background-color: #fff
+      color: #3273dc
 
 .margin-top-0
   margin-top: 0 !important
@@ -123,7 +127,7 @@ body
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 2rem
   background-color: transparent
 
 //Menu overrides
@@ -164,14 +168,54 @@ $menu-label-color: $white-ter
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
+// Custom
+.products
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
+.product
+
+  &__image
+    width: 240px;
+    margin-bottom: 10px;
+
+.section .content:not(:last-child)
+  margin-bottom: 4.5rem;
+
+.hero-video
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+.hero-image
+  position: absolute;
+  top: 0;
+
+.menu-list--footer
+  margin-top: 0;
+
+.tile
+  &--bottom-space
+    margin-bottom: 20px;
+
+.navbar
+  &--top
+    border-bottom: 1px solid #efefef;
 
 @import "~bulma"
 
+body
+  font-size: 1.2em
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
+  .full-width-image
+    background-image: none !important;
+    height: 400px;
 
 +mobile
   .blog-list-item header
@@ -180,3 +224,8 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .full-width-image
+    height: 220px;
+  .products
+    grid-template-columns: 1fr
+

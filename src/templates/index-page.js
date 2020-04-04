@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+// import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -23,13 +23,15 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
       }}
-    >
+      >
+      {/* <img className="hero-image" src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} /> */}
+      <video className="hero-video" autoPlay loop muted poster={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}>
+        <source src="https://res.cloudinary.com/chrislawton/video/upload/v1586008920/drone_puhdr8.mp4" type="video/mp4" />
+      </video>
       <div
         style={{
           display: 'flex',
           height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
           zIndex: '3',
@@ -40,7 +42,7 @@ export const IndexPageTemplate = ({
           style={{
             color: 'white',
             lineHeight: '1',
-            padding: '0.25em',
+            marginBottom: '15px',
           }}
         >
           {title}
@@ -50,7 +52,6 @@ export const IndexPageTemplate = ({
           style={{
             color: 'white',
             lineHeight: '1',
-            padding: '0.25em',
           }}
         >
           {subheading}
@@ -67,8 +68,13 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h1 className="is-size-2">{mainpitch.title}</h1>
                   </div>
-                  <div className="tile">
+                  <div className="tile tile--bottom-space">
                     <p className="intro">{mainpitch.description}</p>
+                  </div>
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/about">
+                      Read more
+                    </Link>
                   </div>
                 </div>
                 <div className="columns">
@@ -80,14 +86,14 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       See all products
                     </Link>
                   </div>
-                </div>
-                <div className="column is-12">
+                </div> */}
+                {/* <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
@@ -97,7 +103,7 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
