@@ -38,4 +38,4 @@ Once I have completed the flights, depending on your needs I will then prepare t
 
 ### Sounds great! How do I book?
 
-For an informal chat please call me on +44 0791 866 7054 or fill in the contact form below. We look forward to hearing from you.
+For an informal chat please call me on [+44 0791 866 7054](<tel:+44 0791 866 7054>) or click the button below to fill out our contact form. We look forward to hearing from you!
