@@ -19,6 +19,8 @@ intro:
       text: 'Some text here about building surveys '
     - image: /img/chris-gallagher-0phuatg_2cq-unsplash-1-.jpg
       text: 'Some text here about flooding surveys '
+    - image: /img/scott-blake-x-ghf9ljrvg-unsplash-1-.jpg
+      text: Some text here about planning consents
   heading: What we offer
   description: Hello
 main:
