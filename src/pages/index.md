@@ -5,7 +5,7 @@ image: /img/asoggetti-rsfxbgpnluw-unsplash.jpg
 heading: Why us?
 subheading: This is a subheading
 mainpitch:
-  title: Welcome to Low Level Views
+  title: About us
   description: >-
     Registered with the Civil Aviation Authority, we are a fully qualified and
     insured drone flying company operating in the County of Herefordshire in the
