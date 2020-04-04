@@ -2,7 +2,7 @@
 templateKey: product-page
 title: Our Services
 image: /img/ricardo-gomez-angel-d7czyewzyzc-unsplash-1-.jpg
-heading: Our services
+heading: What we do
 description: >-
   Please take a look through at all the services we offer below. If you're
   looking for something more bespoke then please get in touch to discuss.
