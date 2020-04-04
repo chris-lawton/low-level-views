@@ -40,7 +40,7 @@ export const ProductPageTemplate = ({
         {title}
       </h2>
     </div>
-    <section className="section section--gradient">
+    <section className="section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">

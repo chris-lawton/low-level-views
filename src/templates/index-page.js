@@ -34,7 +34,8 @@ export const IndexPageTemplate = ({
           height: '150px',
           alignItems: 'left',
           flexDirection: 'column',
-          zIndex: '3',
+            zIndex: '3',
+          padding: '20px',
         }}
       >
         <h1
@@ -58,7 +59,7 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
       </div>
-    <section className="section section--gradient">
+    <section className="section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
