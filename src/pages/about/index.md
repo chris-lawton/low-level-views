@@ -14,7 +14,7 @@ I have full commercial drone insurance with [Flock](https://flockcover.com/).
 * Yuneec Typhoon H - 4K pictures and video 
 * DJI Spark - HD pictures and video
 
-### What's the first step?
+### What's the first step in the process?
 
 When we first meet to discuss your requirements, I will show you CAA PfCO certificate, so you know I am fully licensed.  After detailing your requirements I will carry out a pre-flight assessment which includes weather forecast for the day of the flights along with checking the CAA’s Notice to Airmen (NOTAMs) for planned flight restrictions/information the CAA has for the area I will fly in for you. 
 
