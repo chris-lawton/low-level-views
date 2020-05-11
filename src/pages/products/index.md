@@ -7,7 +7,15 @@ description: >-
   Please take a look through at all the services we offer below. If you're
   looking for something more bespoke then please get in touch to discuss.
 intro:
-  blurbs: []
+  blurbs:
+    - image: /img/image3-21.jpeg
+      text: >+
+        Agricultural Surveys: 
+
+        Searching for 50 year land Drains. Look closely at the photos and you
+        can see the herring bone pattern on the ground showing the farmer where
+        his land drains are that he installed 50 years ago. 
+
   heading: What we offer
   description: >
     Please have look through the various photos and the work that has been
