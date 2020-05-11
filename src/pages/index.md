@@ -39,11 +39,21 @@ description: This is an intro
 intro:
   blurbs:
     - image: /img/colin-watts-0egkrufcub8-unsplash-1-.jpg
-      text: Some text here about agricultural surveys
-    - image: /img/enrapture-captivating-media-tdrzdy4si3i-unsplash-1-.jpg
-      text: 'Some text here about building surveys '
+      text: >-
+        From Crop inspections through to  looking for drought patches,
+        fertiliser application or weed growth, the 4K photos will usually tell
+        the Farmer and his Agronomist how the crops are progressing through the
+        seasons. 
+    - image: /img/image28-71.jpeg
+      text: >-
+        Facilities Management of animal husbandry buildings and identifying
+        potential planning application issues can be identified through Drone
+        photography for the Client's business partners to discuss with their
+        services suppliers. 
     - image: /img/chris-gallagher-0phuatg_2cq-unsplash-1-.jpg
-      text: 'Some text here about flooding surveys '
+      text: >-
+        Flooding Impact photos can often be of help when working with Parish
+        Councils and various Agencies. 
     - image: /img/scott-blake-x-ghf9ljrvg-unsplash-1-.jpg
       text: Some text here about planning consents
   heading: What we offer
