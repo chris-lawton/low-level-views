@@ -2,7 +2,9 @@
 templateKey: index-page
 title: Welcome to Low Level Views
 image: /img/pano-1.jpg
-heading: Why us?
+heading: >-
+  We offer a high quality service at competitive cost to you. We can supply raw
+  still and video footage through to high quality prints of many sizes.  
 subheading: This is a subheading
 mainpitch:
   title: About us
