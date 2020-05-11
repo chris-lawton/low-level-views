@@ -7,21 +7,12 @@ description: >-
   Please take a look through at all the services we offer below. If you're
   looking for something more bespoke then please get in touch to discuss.
 intro:
-  blurbs:
-    - image: /img/colin-watts-0egkrufcub8-unsplash-1-.jpg
-      text: Agricultural Surveys
-    - image: /img/enrapture-captivating-media-tdrzdy4si3i-unsplash-1-.jpg
-      text: 'Buildings, Roof and Security Surveys'
-    - image: /img/chris-gallagher-0phuatg_2cq-unsplash-1-.jpg
-      text: Flooding surveys
-    - image: /img/scott-blake-x-ghf9ljrvg-unsplash-1-.jpg
-      text: Planning Consents
+  blurbs: []
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Please have look through the various photos and the work that has been
+    completed to gain a better understanding of some of the successful client
+    jobs completed so far...
 main:
   heading: Great coffee with no compromises
   description: >
