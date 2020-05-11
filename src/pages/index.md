@@ -54,8 +54,11 @@ intro:
       text: >-
         Flooding Impact photos can often be of help when working with Parish
         Councils and various Agencies. 
-    - image: /img/scott-blake-x-ghf9ljrvg-unsplash-1-.jpg
-      text: Some text here about planning consents
+    - image: /img/turkey-2.jpg
+      text: >-
+        Often a simple aerial photo provides the necessary information to enable
+        risk based decisions to be made for example in planning applications and
+        environmental issues/impact. 
   heading: What we offer
   description: Hello
 main:
