@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Welcome to Low Level Views
-image: /img/asoggetti-rsfxbgpnluw-unsplash.jpg
+image: /img/pano-1.jpg
 heading: Why us?
 subheading: This is a subheading
 mainpitch:
