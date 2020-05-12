@@ -40,7 +40,7 @@ mainpitch:
 description: Examples of Completed Work for Clients
 intro:
   blurbs:
-    - image: /img/colin-watts-0egkrufcub8-unsplash-1-.jpg
+    - image: /img/land-drain-1.jpg
       text: >-
         From Crop inspections through to  looking for drought patches,
         fertiliser application or weed growth, the 4K photos will usually tell
