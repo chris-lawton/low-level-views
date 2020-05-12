@@ -41,11 +41,18 @@ description: Examples of Completed Work for Clients
 intro:
   blurbs:
     - image: /img/land-drain-1.jpg
-      text: >-
+      text: >
         From Crop inspections through to  looking for drought patches,
         fertiliser application or weed growth, the 4K photos will usually tell
         the Farmer and his Agronomist how the crops are progressing through the
         seasons. 
+
+
+        Agricultural Surveys: 
+
+        Searching for 50 year land Drains. Look closely at the above photo and
+        you can see the herring bone pattern on the ground showing the farmer
+        where his land drains are that he installed 50 years ago. 
     - image: /img/image28-71.jpeg
       text: >-
         Facilities Management of animal husbandry buildings and identifying
