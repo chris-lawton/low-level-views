@@ -37,7 +37,7 @@ mainpitch:
 
 
     (Contact hyperlink here)
-description: This is an intro
+description: Examples of Completed Work for Clients
 intro:
   blurbs:
     - image: /img/colin-watts-0egkrufcub8-unsplash-1-.jpg
