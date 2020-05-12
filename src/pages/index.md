@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Welcome to Low Level Views
+title: Welcome to Low Level Views - Putting You in The Picture
 image: /img/pano-1.jpg
 heading: >-
   We offer a high quality service at competitive cost to you. We can supply raw
@@ -61,19 +61,21 @@ intro:
         Often a simple aerial photo provides the necessary information to enable
         risk based decisions to be made for example in planning applications and
         environmental issues/impact. 
-  heading: What we offer
+  heading: Crop Protection
   description: Hello
 main:
-  heading: Great coffee with no compromises
-  description: Description
+  heading: Photographs for Magazines
+  description: Parish Planning for a Neighbourhood Development Plan Composition
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: Assessing Building Impact on the Parish Environment
+    image: /img/yun00138.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Front Cover magazine Photographs in 4K resolution
+    image: /img/dji_0021-adjusted-2a-june-2019.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: >-
+      Sunset after storm flooding in Herefordshire January 2020.  This
+      photograph was used as a front cover for a Village magazine. 
+    image: /img/img_0046-1-.jpg
 ---
 
