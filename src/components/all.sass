@@ -25,6 +25,7 @@ body
 .intro
     font-family: $font-body
     font-size: 20px
+    white-space: break-spaces;
 
 .navbar
     display: flex
@@ -35,14 +36,24 @@ body
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
+    padding: 10px !important
+
+    &:last-child
+      border-bottom: 0
 
     &--logo
         text-transform: none;
         font-family: $font-heading
         font-size: 25px
+        border-bottom: 0
+        padding: 0 10px !important;
 
 .navbar .navbar-menu
   box-shadow:none !important
+  padding: 0
+
+  &.is-active
+    border-top: 1px solid #f1efef
 
 .content .taglist
   list-style: none
@@ -171,14 +182,20 @@ $menu-label-color: $white-ter
 // Custom
 .products
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
 
 .product
 
   &__image
-    width: 240px;
+    max-width: 370px;
     margin-bottom: 10px;
+
+  &__title
+    font-weight: 400 !important;
+    font-family: 'Merriweather';
+    font-size: 20px !important;
+    line-height: 1.6 !important;
+    white-space: break-spaces;
 
 .section .content:not(:last-child)
   margin-bottom: 4.5rem;
@@ -209,6 +226,12 @@ $menu-label-color: $white-ter
 body
   font-size: 1.2em
 
+.content h3
+  line-height: 1.4
+
+.content img
+  object-fit: cover;
+
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
@@ -228,4 +251,10 @@ body
     height: 220px;
   .products
     grid-template-columns: 1fr
-
+  .navbar
+    display: flex
+    flex-direction: column
+  .navbar-item
+    border-bottom: 1px solid #ccc
+  .navbar-item--logo
+    border-bottom: 0

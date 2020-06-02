@@ -73,14 +73,14 @@ export const IndexPageTemplate = ({
                     <p className="intro">{mainpitch.description}</p>
                   </div>
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/about">
-                      Read more
+                    <Link className="btn" to="/contact">
+                      Get in touch
                     </Link>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-4">
+                    <h3 className="has-text-weight-semibold is-size-3">
                       {heading}
                     </h3>
                     <p>{description}</p>

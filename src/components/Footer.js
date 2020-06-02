@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 // import facebook from '../img/social/facebook.svg'
 // import instagram from '../img/social/instagram.svg'
@@ -14,7 +14,7 @@ const Footer = class extends React.Component {
           <div className="container has-background-black has-text-white-ter">
             <div className="columns">
               <div className="column is-4">
-                <section className="menu">
+                {/* <section className="menu">
                   <ul className="menu-list menu-list--footer">
                     <li>
                       <Link to="/" className="navbar-item">
@@ -27,16 +27,11 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
                       <Link className="navbar-item" to="/contact">
                         Contact
                       </Link>
                     </li>
-                    {/* <li>
+                    <li>
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -45,9 +40,9 @@ const Footer = class extends React.Component {
                       >
                         Admin
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
-                </section>
+                </section> */}
               </div>
               <div className="column is-4">
                 <section>
