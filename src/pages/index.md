@@ -8,7 +8,7 @@ heading: >-
 subheading: Putting You in The Picture
 mainpitch:
   title: About us
-  description: >
+  description: >+
     Welcome to Low Level Views operating in the County of Herefordshire in the
     United Kingdom. 
 
@@ -35,8 +35,6 @@ mainpitch:
     So please feel free to look around the website and then let’s talk to see
     what we can do together…
 
-
-    (Contact hyperlink here)
 description: Examples of Completed Work for Clients
 intro:
   blurbs:
