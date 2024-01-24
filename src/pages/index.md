@@ -13,8 +13,9 @@ mainpitch:
     United Kingdom. 
 
 
-    Registered with the Civil Aviation Authority, I have a current Permission
-    for Commercial Operations from them (registration number UAS 10365). 
+    Registered with the Civil Aviation Authority, I have held a Permission for
+    Commercial Operations for 2 years and now hold an A2 Certificate of
+    Competence.
 
 
     Why not have a look at my portfolio so you can see the type of work I have
