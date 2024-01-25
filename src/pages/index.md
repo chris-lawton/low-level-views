@@ -18,8 +18,8 @@ mainpitch:
     Competence.
 
 
-    Why not have a look at my portfolio so you can see the type of work I have
-    completed to date. 
+    Please look through my portfolio of photos on this website so you can see
+    the type of work I have completed to date.
 
 
     Working with you and your team collaboratively we will define clearly and
